@@ -132,6 +132,8 @@ ChatBotPanelDialog::ChatBotPanelDialog(wxWindow *parent, wxWindowID id)
 
     ////
     //// EOF STUDENT CODE
+
+    
 }
 
 ChatBotPanelDialog::~ChatBotPanelDialog()
