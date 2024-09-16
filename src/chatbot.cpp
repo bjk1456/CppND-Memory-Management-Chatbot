@@ -95,7 +95,6 @@ ChatBot & ChatBot::operator=(ChatBot &&source) // 5 : move assignment operator
     if (this == &source)
         return *this;
 
-    delete _image;
     _chatLogic = source._chatLogic;
     _rootNode = source._rootNode;
     _image = source._image;
@@ -103,6 +102,7 @@ ChatBot & ChatBot::operator=(ChatBot &&source) // 5 : move assignment operator
     source._chatLogic = nullptr;
     source._rootNode = nullptr;
     source._image = nullptr;
+    _chatLogic->SetChatbotHandle(this);
 
     return *this;
 }
