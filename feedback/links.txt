@@ -1,0 +1,4 @@
+https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-smart-pointer-library?application_version=4.27
+https://docs.ros.org/en/eloquent/Tutorials/Intra-Process-Communication.html
+https://stackoverflow.com/questions/18264673/stdunique-ptr-vs-stdshared-ptr-vs-stdweak-ptr-vs-stdauto-ptr-vs-raw-poin
+https://stackoverflow.com/questions/6876751/differences-between-unique-ptr-and-shared-ptr
